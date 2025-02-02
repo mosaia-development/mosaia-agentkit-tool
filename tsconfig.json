@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        "target": "ESNext",
+        "module": "CommonJS",
+        "moduleResolution": "node",
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true,
+        "strict": true,
+        "outDir": "./dist",
+        "rootDir": "./src",
+        "resolveJsonModule": true
+    },
+    "include": [
+        "src/**/*.ts",
+        "src/chatbot.tstemp"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}
